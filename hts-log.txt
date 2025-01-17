@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 15 Jan 2025 21:03:42 at https://html.hixstudio.net/uncut-pv/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://html.hixstudio.net/uncut-pv/index.html -O1 "E:\0\ME\Dornika\themeforest-ltr\uncut" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:06:36	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/medical/team-details.html (from https://html.hixstudio.net/uncut-pv/uncut/medical/index.html)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/e (from https://html.hixstudio.net/uncut-pv/assets/js/swiper-bundle.js)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/a.params.url (from https://html.hixstudio.net/uncut-pv/assets/js/swiper-bundle.js)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-duotone-900.woff2 (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-duotone-900.ttf (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-thin-100.woff2 (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-thin-100.ttf (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-v4compatibility.woff2 (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/assets/fonts/fa-v4compatibility.ttf (from https://html.hixstudio.net/uncut-pv/uncut/assets/css/font-awesome-pro.css)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/medical/e (from https://html.hixstudio.net/uncut-pv/uncut/assets/js/vendors.min.js)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/medical/a.params.url (from https://html.hixstudio.net/uncut-pv/uncut/assets/js/vendors.min.js)
+21:08:31	Error: 	"Not Found" (404) at link https://html.hixstudio.net/uncut-pv/uncut/beauti-salon/+(1)2246767430 (from https://html.hixstudio.net/uncut-pv/uncut/beauti-salon/contact.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 49 seconds : 835 links scanned, 822 files written (35124278 bytes overall) [28415353 bytes received at 98323 bytes/sec], 9732812 bytes transferred using HTTP compression in 115 files, ratio 26%, 23.1 requests per connection
+(12 errors, 0 warnings, 0 messages)
