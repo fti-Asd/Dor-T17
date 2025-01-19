@@ -14623,6 +14623,7 @@ input[type=color] {
   line-height: 42px;
   border: 1px solid transparent;
   padding: 10px 18px;
+  direction: rtl;
 }
 .tp-contact-med-form .tp-footer-cpr-form .input::-webkit-input-placeholder, .tp-contact-med-form .tp-footer-cpr-form .textarea::-webkit-input-placeholder, .tp-contact-med-form .tp-footer-cpr-form .select::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
