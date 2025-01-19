@@ -37,7 +37,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"); */
 a,
 button,
 p,
@@ -58,8 +58,8 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Poppins', sans-serif;
-  --tp-ff-heading: 'Poppins', sans-serif;
+  /* --tp-ff-body: 'Poppins', sans-serif;
+  --tp-ff-heading: 'Poppins', sans-serif; */
   /**
   @color declaration
   */
@@ -1342,7 +1342,7 @@ li,
   width: fit-content;
   font-size: 120px;
   line-height: 1.5;
-  font-family: system-ui, sans-serif;
+  /* font-family: system-ui, sans-serif; */
   font-weight: bold;
   text-transform: uppercase;
   color: #0000;
@@ -1471,13 +1471,15 @@ li,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "IRANSansWebFaNum";
+  direction: rtl;
 }
 
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--tp-ff-body);
+  /* font-family: var(--tp-ff-body); */
   font-size: 14px;
   font-weight: normal;
   color: var(--tp-text-body);
@@ -5798,7 +5800,7 @@ div.demo img {
 /*  7.4 demo css
 /*----------------------------------------*/
 .tp-header-ptb {
-  padding: 16px;
+  padding: 16px 0;
   padding-top: 37px;
 }
 .tp-header-btn {
@@ -6356,7 +6358,7 @@ div.demo img {
   margin-bottom: 10px;
   display: inline-block;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-aladin);
+  /* font-family: var(--tp-ff-aladin); */
 }
 .tp-responsive-content p {
   font-weight: 500;
@@ -6692,7 +6694,7 @@ div.demo img {
   margin-left: 12px;
 }
 .tp-elements-box-slider-2 .feature-box {
-  direction: rtl;
+  /* direction: rtl; */
 }
 .tp-elements-box-slider-2 .feature-box span {
   letter-spacing: -0.02em;
