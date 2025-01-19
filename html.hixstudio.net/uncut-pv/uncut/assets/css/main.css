@@ -102,7 +102,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Space+Grotesk:wght@300..700&amp;family=Manrope:wght@200..800&amp;family=DM+Serif+Display:ital@0;1&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Yeseva+One&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Staatliches&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Space+Grotesk:wght@300..700&amp;family=Manrope:wght@200..800&amp;family=DM+Serif+Display:ital@0;1&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Yeseva+One&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Staatliches&amp;display=swap"); */
 .tp-portfolio-it-grid-popup, .tp-offcanvas-area, .tp-offcanvas-social ul li a, a,
 button,
 p,
@@ -119,17 +119,17 @@ li,
 }
 
 /* transform */
-@font-face {
+/* @font-face {
   font-family: '"Colasta" Sans Serif';
   src: url("../fonts/Colasta.ttf") format("truetype"), url("../fonts/Colasta-Light.ttf") format("truetype"), url("../fonts/Colasta-Bold.ttf") format("truetype"), url("../fonts/Colasta-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 :root {
   /**
   @font family declaration
   */
-  --tp-ff-body: "DM Sans", sans-serif;
+  /* --tp-ff-body: "DM Sans", sans-serif;
   --tp-ff-heading: 'Colasta', sans-serif;
   --tp-ff-jakarta: 'Plus Jakarta Sans', sans-serif;
   --tp-ff-grotesk: 'Space Grotesk', sans-serif;
@@ -142,7 +142,7 @@ li,
   --tp-ff-open: 'Open Sans', sans-serif;
   --tp-ff-inter: 'Inter', sans-serif;
   --tp-ff-staat: 'Staatliches', sans-serif;
-  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  --tp-ff-fontawesome: "Font Awesome 6 Pro"; */
   /**
   @color declaration
   */
@@ -193,6 +193,8 @@ li,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "IRANSansWebFaNum";
+  direction: rtl;
 }
 
 /*---------------------------------
