@@ -143,7 +143,7 @@
 	var tpSideMenu = $('.tp-offcanvas-menu nav');
 	tpSideMenu.append(tpMenuWrap);
 	if ($(tpSideMenu).find('.tp-submenu').length != 0) {
-		$(tpSideMenu).find('.tp-submenu').parent().append('<button class="tp-menu-close"><i class="far fa-chevron-right"></i></button>');
+		$(tpSideMenu).find('.tp-submenu').parent().append('<button class="tp-menu-close"><i class="far fa-chevron-left"></i></button>');
 	}
 	var sideMenuList = $('.tp-offcanvas-menu nav > ul > li button.tp-menu-close, .tp-offcanvas-menu nav > ul li.has-dropdown > a');
 	$(sideMenuList).on('click', function (e) {
